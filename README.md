@@ -21,32 +21,32 @@ Problem 1 can be addressed by allowing storage node operators to have their offe
 
 ## Roadmap
 * MILESTONE 1: Introduce a new blockchain transaction type: the ability to register as a storage provider (role) (register_storage_provider).
-Unit tests included.
-Code delivery in docker container.
+  - Unit tests included.
+  - Code delivery in docker container.
 * MILESTONE 2: Introduce a new blockchain transaction type: the ability to register the amount of offered storage space as a storage provider (provide_storage/withdraw_storage).
-Unit tests included.
-Code delivery in docker container.
+  - Unit tests included.
+  - Code delivery in docker container.
 * MILESTONE 3: Introduce a new Phoenix feature: on-the-fly generation of plot files (plotting) within IPFS.
-Unit tests included.
-Code delivery in docker container.
+  - Unit tests included.
+  - Code delivery in docker container.
 * MILESTONE 4: Prevent plotting interference from file uploading: allow Phoenix to enforce IPFS to collect garbage frequently and remove any files that were uploaded to IPFS, and/or allow Phoenix to block file uploading/pinning to peers with unconfirmed storage space.
-Unit tests included.
-Code delivery in docker container.
+  - Unit tests included.
+  - Code delivery in docker container.
 * MILESTONE 5: Verify plotting at blockchain: allow Shift nodes to reproduce plot files (hash comparison of a random shard of a random plot file) using Zero Knowledge Proofs.
-Unit tests included.
-Code delivery in docker container.
+  - Unit tests included.
+  - Code delivery in docker container.
 * MILESTONE 6: Allow Shift nodes to confirm (twice) the pre-registered amount of offered storage space in database (Pre-registered → Unconfirmed → Confirmed).
-Unit tests included.
-Code delivery in docker container.
+  - Unit tests included.
+  - Code delivery in docker container.
 * MILESTONE 7: Allow Shift nodes to sum all Confirmed amounts of offered storage space to calculate the platform’s total amount of available storage.
-Unit tests included.
-Code delivery in docker container.
+  - Unit tests included.
+  - Code delivery in docker container.
 * MILESTONE 8: Prevent Phoenix from pinning files to peers with Unconfirmed storage space. Allow Phoenix to only select peers with Confirmed storage space.
-Unit tests included.
-Code delivery in docker container.
+  - Unit tests included.
+  - Code delivery in docker container.
 * MILESTONE 9: Allow a Phoenix peer to carefully handle plotting and pinning in specific scenarios, i.e. withdrawal and/or later-on addition of storage space.
-Unit tests included.
-Code delivery in docker container.
+  - Unit tests included.
+  - Code delivery in docker container.
 * MILESTONE 10: Introduce a new Phoenix feature: Distributed Hash Table (DHT).
-Unit tests included.
-Code delivery in docker container.
+  - Unit tests included.
+  - Code delivery in docker container.
